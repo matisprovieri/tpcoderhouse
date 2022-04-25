@@ -143,9 +143,6 @@ legend{
 }
 .port{
     display: column;
-    /*height: 100%;
-    width: 100%;
-    padding: 20px;*/
 }
 .port1, .port2, .port3, .port4, .port5{
     width: 100%;
