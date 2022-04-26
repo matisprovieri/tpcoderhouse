@@ -269,7 +269,7 @@ p{
         /*background-color: #FAE5D3;*/
         background-color: #a7a7a7;
         display:flex;
-        flex-direction: column;
+        /*flex-direction: column;*/
         align-items: center;
     }
     .mapa{
@@ -421,7 +421,7 @@ p{
         /*background-color: #FAE5D3;*/
         background-color: #a7a7a7;
         display:flex;
-        flex-direction: column;
+        /*flex-direction: column;*/
     }
     .mapa{
         width: 100px;
