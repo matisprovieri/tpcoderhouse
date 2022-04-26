@@ -90,10 +90,10 @@ h1{
 .fto{
     width: 95%;
     height: 450px ;
-    transition: height 2s;
+    transition: all ease-out 0.2s;
 }
 .fto:hover{
-    height: 500px;
+    transform: scale(1.05);
 }
 .video{
     position: static;
