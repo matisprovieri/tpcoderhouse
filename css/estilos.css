@@ -103,7 +103,7 @@ h1{
 ul li a:hover{
     color: coral;
 }
-.tipe, ul li a legend{
+.tipe, .color, ul li a legend{
     font-family:Garamond, serif;
     color: white;
 }
@@ -144,9 +144,13 @@ legend{
 .port{
     display: column;
 }
-.port1, .port2, .port3, .port4, .port5{
+.port1, .port2, .port4, .port5{
     width: 100%;
     height: 100%;
+}
+.port3{
+    width: 60%;
+    height: 60%;
 }
 .izquierda{
     display: flex;
