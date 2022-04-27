@@ -192,6 +192,9 @@ p{
 .contac{
     text-align: center;
     font-family: Garamond, serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 /*----------------------------MEDIA------------------------------------*/
