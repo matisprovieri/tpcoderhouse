@@ -347,11 +347,14 @@ p{
         height: 200px;
         width: 200px;
     }
+    .servic{
+        height: 100%;
+    }
     .bordes{
         border: 1px solid black;
         margin: 2% 5%;
         width: auto;
-        height: 550px;
+        height: 650px;
     }
 }
 @media only screen and (max-width: 400px){
@@ -501,6 +504,6 @@ p{
         border: 1px solid black;
         margin: 2% 5%;
         width: auto;
-        height: 550px;
+        height: 700px;
     }
 }
