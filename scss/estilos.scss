@@ -8,6 +8,10 @@ $color4: coral;
 $ancho:100%;
 $alto: 100%;
 
+@mixin flex {
+    display: flex;
+    justify-content: center;
+}
 body{
     /*background-color: #F2F3F4;*/
     background-color: $color1;
@@ -78,8 +82,7 @@ h1{
     text-transform: uppercase;
 }
 .img1{
-    display: flex;
-    justify-content: center;
+    @include flex();
     width: $ancho;
     height: 620px;
 }
@@ -122,6 +125,7 @@ ul li a:hover{
     font-family:Garamond, serif;
     color: $color3;
 }
+
 /*-----------------------footer-------------------------------*/
 footer{
     /*background-color: #FAE5D3;*/
@@ -138,7 +142,7 @@ footer{
     font-family: Garamond, serif;
 }
 .redes-sociales{
-    display: flex;
+    @include flex();
     list-style: none;
 }
 .img-redes{
@@ -256,8 +260,7 @@ p{
         text-transform: uppercase;
     }
     .img1{
-        display: flex;
-        justify-content: center;
+        @include flex();
         width: $ancho;
         height: $alto -50%;
     }
@@ -303,9 +306,8 @@ p{
         text-align: center;
     }
     .redes-sociales{
-        display: flex;
+        @include flex();
         list-style: none;
-        justify-content: center;
     }
     .img-redes{
         width: 50px;
@@ -457,7 +459,7 @@ p{
         text-align: center;
     }
     .redes-sociales{
-        display: flex;
+        @include flex();
         list-style: none;
     }
     .img-redes{
