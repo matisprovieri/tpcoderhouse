@@ -1,6 +1,12 @@
+//colores
+$color1: #dcdcdc;
+$color2: #a7a7a7;
+$color3: white;
+$color4: coral;
+
 body{
     /*background-color: #F2F3F4;*/
-    background-color: #dcdcdc;
+    background-color: $color1;
 }
 header{
     width: 100%;
@@ -23,19 +29,19 @@ main{
     display: flex;
     justify-content: space-around;
     /*background-color: #FAE5D3;*/
-    background-color: #a7a7a7;
+    background-color: $color2;
 }
 ul li a {
     text-decoration: none;
     font-size: 0.80cm;
-    color: white;
+    color: $color3;
     font-style: normal;
 }
 h1{
     font-size: 35px;
     padding: 0 25px;
     line-height: 125px;
-    color: white;
+    color: $color3;
     animation-duration: 5s;
     animation-name: titulo;
     animation-iteration-count: initial;
@@ -56,7 +62,7 @@ h1{
     line-height: 50px;
     margin: 35px 5px 5px 5px;
     font-family: Garamond, serif;
-    color: white;
+    color: $color3;
     animation-duration: 5s;
     animation-name: titulo;
     animation-iteration-count: initial;
@@ -106,16 +112,16 @@ h1{
     height: 500px;
 }
 ul li a:hover{
-    color: coral;
+    color: $color4;
 }
 .tipe, .color, ul li a legend{
     font-family:Garamond, serif;
-    color: white;
+    color: $color3;
 }
 /*-----------------------footer-------------------------------*/
 footer{
     /*background-color: #FAE5D3;*/
-    background-color: #a7a7a7;
+    background-color: $color2;
     display:flex;
     justify-content: space-between;
 }
@@ -136,7 +142,7 @@ footer{
     height: 50px;
 }
 legend{
-    color: white;
+    color: $color3;
     font-size: 30px;
     font-family: garamond, serif;
 }
@@ -206,7 +212,7 @@ p{
 @media only screen and (max-width: 1023px){
     body{
         /*background-color: #F2F3F4;*/
-        background-color: #dcdcdc;
+        background-color: $color1;
     }
     header{
         width: 100%;
@@ -220,7 +226,7 @@ p{
     }
     .nav{
         /*background-color: #FAE5D3;*/
-        background-color: #a7a7a7;
+        background-color: $color2;
         display: flex;
         flex-flow: column;
         align-items: center;
@@ -271,7 +277,7 @@ p{
         height: 500px;
     }
     ul li a:hover{
-        color: coral;
+        color: $color4;
     }
     .tipe, ul li a legend{
         font-family: helvetica;
@@ -279,7 +285,7 @@ p{
     /*-------footer-------*/
     footer{
         /*background-color: #FAE5D3;*/
-        background-color: #a7a7a7;
+        background-color: $color2;
         display:flex;
         /*flex-direction: column;*/
         align-items: center;
@@ -360,7 +366,7 @@ p{
 @media only screen and (max-width: 400px){
     body{
         /*background-color: #F2F3F4;*/
-        background-color: #dcdcdc;
+        background-color: $color1;
     }
     header{
         width: 100%;
@@ -374,7 +380,7 @@ p{
     }
     .nav{
         /*background-color: #FAE5D3;*/
-        background-color: #a7a7a7;
+        background-color: $color2;
         display: flex;
         flex-flow: column;
         align-items: center;
@@ -426,7 +432,7 @@ p{
         height: 500px;
     }
     ul li a:hover{
-        color: coral;
+        color: $color4;
     }
     .tipe, ul li a legend{
         font-family: helvetica;
@@ -434,7 +440,7 @@ p{
     /*-------footer-------*/
     footer{
         /*background-color: #FAE5D3;*/
-        background-color: #a7a7a7;
+        background-color: $color2;
         display:flex;
         /*flex-direction: column;*/
     }
