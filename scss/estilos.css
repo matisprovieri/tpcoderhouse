@@ -286,12 +286,16 @@ p {
   height: auto;
 }
 
-.acomodar {
+.acomodar, .acomodar--nuevo {
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   font-family: Garamond, serif;
+}
+
+.acomodar--nuevo {
+  background-color: #a7a7a7;
 }
 
 /*---------------yo---------------------*/

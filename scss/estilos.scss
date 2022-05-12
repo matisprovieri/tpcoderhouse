@@ -199,6 +199,10 @@ p{
     justify-content: center;
     font-family: Garamond, serif;
 }
+.acomodar--nuevo{
+    @extend .acomodar;
+    background-color: $color2;
+}
 
 /*---------------yo---------------------*/
 .imgro{
